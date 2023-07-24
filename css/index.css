@@ -2,6 +2,7 @@
 @import './find.css';
 @import './css/bookmar.css';
 @import './css/jobs.css';
+@import './css/content__app.css';
 
 :root {
     --green: #0DAA00;
