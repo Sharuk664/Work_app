@@ -40,3 +40,50 @@
     border-radius: 32px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+
+.sub__menu {
+    display: flex;
+    width: 376px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background: whitesmoke;
+    backdrop-filter: blur(16px);
+}
+
+.home__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.aplliet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.accout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.text__menu {
+    color: var(--negro, #252525);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
