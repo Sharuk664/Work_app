@@ -11,3 +11,41 @@
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
   }
+
+
+  .button__front {
+    display: flex;
+    padding: 4px 88px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--green);
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: var(--blanco, #FFF);
+    font-family: Roboto;
+    font-weight: 400;
+    padding: 12px 100px;
+
+}
+
+.button__box {
+  display: flex;
+  padding: 5px 24px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 8px;
+  background: #BDE5B7;
+  color: #A0DE99;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+}

@@ -1,0 +1,42 @@
+:root {
+    --green: #0DAA00;
+    --black: #0000;
+    --white: #ffff;
+    --gray: #8F8F8F;
+
+    --blue: #001233;
+    --purple: #3C096C;
+    --orange: #FF5400;
+    --red: #A4161A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px;
+    gap: 32px;
+}
+
+.perfil {
+    display: flex;
+    height: 68px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.image__title {
+    width: 44px;
+    height: 44px;
+    border-radius: 32px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
