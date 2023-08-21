@@ -20,6 +20,10 @@
   }
 
 /*find*/
+.content {
+    gap: 0;
+}
+
 .perfil__content {
     display: flex;
     flex-direction: column;
@@ -221,6 +225,4 @@
             line-height: normal;
         }
 
-/*JOBS*/
-/*ubicado en jobs.css*/
 
